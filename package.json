@@ -1,0 +1,19 @@
+{
+  "name": "serverless-react-serverside-rending",
+  "version": "1.0.0",
+  "description": "this repo is lab to create a simple serverside render with react and serverless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nontachaiwebdev/serverless-react-serverside-rending.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nontachaiwebdev/serverless-react-serverside-rending/issues"
+  },
+  "homepage": "https://github.com/nontachaiwebdev/serverless-react-serverside-rending#readme"
+}
