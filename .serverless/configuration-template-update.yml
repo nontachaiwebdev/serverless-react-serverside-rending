@@ -1,0 +1,14 @@
+resources:
+  - type: storage.v1.bucket
+    name: sls-serverless-test-server-dev-1517931456124
+  - type: cloudfunctions.v1beta2.function
+    name: serverless-test-server-dev-first
+    properties:
+      location: us-central1
+      availableMemoryMb: 256
+      timeout: 60s
+      function: http
+      sourceArchiveUrl: >-
+        gs://sls-serverless-test-server-dev-1517931456124/serverless/serverless-test-server/dev/1517931459791-2018-02-06T15:37:39.791Z/serverless-test-server.zip
+      httpsTrigger:
+        url: path

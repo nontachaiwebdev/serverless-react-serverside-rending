@@ -1,0 +1,3 @@
+resources:
+  - type: storage.v1.bucket
+    name: sls-serverless-test-server-dev-1517931456124
